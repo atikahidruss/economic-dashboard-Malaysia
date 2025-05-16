@@ -1,0 +1,89 @@
+.sidebar {
+  width: 260px;
+  height: 100vh;
+  background: linear-gradient(135deg, #6c63ff 0%, #3f3d56 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: width 0.3s ease;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+  margin-bottom: 40px;
+  color: #f0f0ff;
+  text-align: center;
+  user-select: none;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.nav-links li {
+  margin-bottom: 20px;
+}
+
+.nav-links li:last-child {
+  margin-bottom: 0;
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #d0d0ff;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 12px 18px;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+  position: relative;
+  user-select: none;
+}
+
+/* Placeholder for icons before text (optional, can add actual icons) */
+.nav-links a::before {
+  content: "•";
+  margin-right: 12px;
+  font-size: 18px;
+  color: #a8a8ff;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  transform: translateX(6px);
+  box-shadow: 0 4px 12px rgba(108, 99, 255, 0.6);
+}
+
+/* Active link styling */
+.nav-links a.active {
+  background: #fff;
+  color: #6c63ff;
+  font-weight: 700;
+  box-shadow: 0 0 15px #6c63ffaa;
+  transform: translateX(6px);
+}
+
+/* Active link icon color */
+.nav-links a.active::before {
+  color: #6c63ff;
+  font-weight: 700;
+}

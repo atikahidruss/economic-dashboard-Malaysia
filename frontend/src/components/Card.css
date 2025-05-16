@@ -1,0 +1,33 @@
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1;
+  min-width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.card h2 {
+  margin: 10px 0;
+  font-size: 28px;
+}
+
+.card .percentage {
+  color: green;
+  font-weight: bold;
+}
+
+.card .desc {
+  font-size: 14px;
+  color: #666;
+}
+
+.card.blue { border-left: 5px solid #007BFF; }
+.card.green { border-left: 5px solid #28A745; }
+.card.purple { border-left: 5px solid #6F42C1; }
+.card.red { border-left: 5px solid #DC3545; }

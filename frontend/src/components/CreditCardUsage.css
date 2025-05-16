@@ -1,0 +1,69 @@
+.credit-card-usage {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  background: #f9f9ff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(108, 99, 255, 0.15);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.credit-card-usage h1 {
+  color: #6c63ff;
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.credit-card-usage p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #555;
+}
+
+.credit-card-usage .explanation {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.controls label {
+  font-weight: 600;
+  color: #6c63ff;
+  cursor: pointer;
+  user-select: none;
+}
+
+.controls input[type="checkbox"] {
+  transform: scale(1.3);
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #6c63ff;
+  border: none;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #574fcf;
+}

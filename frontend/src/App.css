@@ -1,0 +1,32 @@
+.app-layout {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 240px; /* same as sidebar width */
+  padding: 20px;
+  flex: 1;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* For smaller laptops/tablets */
+@media (max-width: 1024px) {
+  .app-container {
+    padding: 15px;
+  }
+}
+
+/* For phones */
+@media (max-width: 600px) {
+  .app-container {
+    padding: 10px;
+  }
+}
